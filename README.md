@@ -27,7 +27,7 @@ inclass3/
 └── .gitignore
 ```
 
-本地另保留 `reports/`（Word、Visio、Markdown 报告）、`tools/`（报告生成、核验与打包工具）、`data/`（数据与划分）、`outputs/`（权重、日志、结果）。这四个目录由 `.gitignore` 排除，不上传 GitHub。
+本地另保留 `reports/`（Word、Visio、Markdown 报告）、`tools/`（核验与打包工具）、`data/`（数据与划分）、`outputs/`（权重、日志、结果）。这四个目录由 `.gitignore` 排除，不上传 GitHub。
 
 ## 安装环境
 
