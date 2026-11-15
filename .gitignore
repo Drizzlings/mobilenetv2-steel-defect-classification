@@ -1,0 +1,45 @@
+# Source-only GitHub submission. Ignore root items unless allowed below.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/src/
+!/configs/
+/src/*
+!/src/*.py
+/configs/*
+!/configs/config.json
+!/configs/config_components.json
+!/configs/config_cbam.json
+
+# Local data, weights, results, reports and auxiliary tools.
+/data/
+/outputs/
+/reports/
+/tools/
+
+# Environments, caches, editor files and local credentials.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+.env
+.env.*
+*.pem
+*.key
+.ssh_known_hosts
+.remote_tools/
+
+# Model exports, archives and temporary files.
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.zip
+*.rar
+*.log
+*.tmp
+~$*

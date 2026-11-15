@@ -1,0 +1,38 @@
+{
+  "dataset": "NEU-CLS",
+  "input_size": 200,
+  "split_seed": 2026,
+  "split_fractions": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "models": [
+    "mobilenet_v2_cbam"
+  ],
+  "seeds": [
+    42
+  ],
+  "epochs": 80,
+  "batch_size": 32,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "min_learning_rate": 1e-05,
+  "warmup_epochs": 5,
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.05,
+  "pretrained": false,
+  "amp": true,
+  "se_reduction": 16,
+  "heartbeat_seconds": 7200,
+  "baseline_target_accuracy": 0.9,
+  "corruptions": {
+    "brightness": 0.6,
+    "contrast": 0.5,
+    "gaussian_noise_std": 0.05,
+    "gaussian_blur_sigma": 1.5
+  },
+  "latency_warmup": 30,
+  "latency_iterations": 200,
+  "profile_batch_size": 32
+}

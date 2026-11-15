@@ -1,0 +1,7 @@
+# Tested server Python 3.10.21. Install the CUDA wheels using the README command.
+torch==2.1.2
+torchvision==0.16.2
+numpy==1.26.4
+scikit-learn==1.5.2
+matplotlib==3.10.9
+Pillow==12.2.0
